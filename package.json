@@ -48,7 +48,7 @@
   },
   "scripts": {
     "build": "gatsby build",
-    "deploy": "npm run build && gh-pages -d public -b main -r https://$GH_TOKEN@github.com/safecorners/safecorners.github.io.git",
+    "deploy": "gatsby build && gh-pages -d public -b main -r https://$GH_TOKEN@github.com/safecorners/safecorners.github.io.git",
     "develop": "gatsby develop",
     "format": "prettier --write \"**/*.{js,jsx,ts,tsx,json,md}\"",
     "start": "npm run develop",
